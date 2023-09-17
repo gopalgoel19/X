@@ -38,6 +38,13 @@ buffer-writer@2.0.0:
   resolved "https://registry.yarnpkg.com/buffer-writer/-/buffer-writer-2.0.0.tgz#ce7eb81a38f7829db09c873f2fbb792c0c98ec04"
   integrity sha512-a7ZpuTZU1TRtnwyCNW3I5dc0wWNC3VR9S++Ewyk2HHZdrO3CQJqSpd+95Us590V6AL7JqUAH2IwZ/398PmNFgw==
 
+busboy@^1.6.0:
+  version "1.6.0"
+  resolved "https://domoreexp.pkgs.visualstudio.com/_packaging/npm-mirror/npm/registry/busboy/-/busboy-1.6.0.tgz#966ea36a9502e43cdb9146962523b92f531f6893"
+  integrity sha1-lm6japUC5DzbkUaWJSO5L1MfaJM=
+  dependencies:
+    streamsearch "^1.1.0"
+
 bytes@3.1.2:
   version "3.1.2"
   resolved "https://registry.yarnpkg.com/bytes/-/bytes-3.1.2.tgz#8b0beeb98605adf1b128fa4386403c009e0221a5"
@@ -464,6 +471,11 @@ statuses@2.0.1:
   resolved "https://registry.yarnpkg.com/statuses/-/statuses-2.0.1.tgz#55cb000ccf1d48728bd23c685a063998cf1a1b63"
   integrity sha512-RwNA9Z/7PrK06rYLIzFMlaF+l73iwpzsqRIFgbMLbTcLD6cOao82TaWefPXQvB2fOC4AjuYSEndS7N/mTCbkdQ==
 
+streamsearch@^1.1.0:
+  version "1.1.0"
+  resolved "https://domoreexp.pkgs.visualstudio.com/_packaging/npm-mirror/npm/registry/streamsearch/-/streamsearch-1.1.0.tgz#404dd1e2247ca94af554e841a8ef0eaa238da764"
+  integrity sha1-QE3R4iR8qUr1VOhBqO8OqiONp2Q=
+
 toidentifier@1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/toidentifier/-/toidentifier-1.0.1.tgz#3be34321a88a820ed1bd80dfaa33e479fbb8dd35"
@@ -476,6 +488,13 @@ type-is@~1.6.18:
   dependencies:
     media-typer "0.3.0"
     mime-types "~2.1.24"
+
+undici@^5.11.0:
+  version "5.20.0"
+  resolved "https://domoreexp.pkgs.visualstudio.com/_packaging/npm-mirror/npm/registry/undici/-/undici-5.20.0.tgz#6327462f5ce1d3646bcdac99da7317f455bcc263"
+  integrity sha1-YydGL1zh02RrzayZ2nMX9FW8wmM=
+  dependencies:
+    busboy "^1.6.0"
 
 unpipe@1.0.0, unpipe@~1.0.0:
   version "1.0.0"
@@ -491,6 +510,13 @@ vary@~1.1.2:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/vary/-/vary-1.1.2.tgz#2299f02c6ded30d4a5961b0b9f74524a18f634fc"
   integrity sha512-BNGbWLfd0eUPabhkXUVm0j8uuvREyTh5ovRa/dyow/BqAbZJyC+5fU+IzQOzmAKzYqYRAISoRhdQr3eIZ/PXqg==
+
+whatsapp-api-js@^0.8.2:
+  version "0.8.2"
+  resolved "https://domoreexp.pkgs.visualstudio.com/_packaging/npm-mirror/npm/registry/whatsapp-api-js/-/whatsapp-api-js-0.8.2.tgz#e575fcdf25d00ab7a9742b2a3168f19c4ee019d1"
+  integrity sha1-5XX83yXQCrepdCsqMWjxnE7gGdE=
+  dependencies:
+    undici "^5.11.0"
 
 xtend@^4.0.0:
   version "4.0.2"
